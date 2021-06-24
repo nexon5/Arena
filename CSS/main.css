@@ -1,6 +1,9 @@
 * {
     margin: 0;
 }
+body{
+    background: yellow;
+}
 
 #head {
     color: red;
@@ -11,8 +14,13 @@
 }
 
 #main {
+    padding-left: 20px;
     width: 80%;
     height: 800px;
     margin-left: 10%;
-    background: green;
+    background: white;
 }
+#main-area {
+    
+}
+
