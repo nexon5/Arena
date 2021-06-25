@@ -15,12 +15,29 @@ body{
 
 #main {
     padding-left: 20px;
-    width: 80%;
-    height: 800px;
-    margin-left: 10%;
+   
     background: white;
 }
-#main-area {
-    
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    background:yellow;
+    height: 800px;
+    width: 100%;
+}
+.container > div.column-1 {
+    background-image: url(../img/kirpich.jpg);
+    background-size: cover;
+
+}
+.container > div.column-2 {
+    background: green;
+
+}
+.colona > img{
+    width: 100%;
+}
+.fire > img{
+    width: 100%;
 }
 
