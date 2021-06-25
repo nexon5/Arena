@@ -26,14 +26,10 @@ body {
     background: rgb(189, 240, 247);
 }
 
-/* #main-area {
-    
-} */
-
 .container {
     display: grid;
     gap: 20px;
-    grid-template-columns: 70% auto;
+    grid-template-columns: 75% auto;
     margin: 10px;
     padding: 20px;
 }
@@ -62,3 +58,16 @@ body {
     padding: 20px;
 }
 
+.box-2 img {
+    max-width: 50px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+/* p + div {
+    cursor: pointer;
+} */
+
+/* .text-p {
+    margin: 20px;
+} */
