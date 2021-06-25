@@ -25,6 +25,10 @@ body {
     margin-left: 10%;
     background: rgb(189, 240, 247);
 }
+/* <<<<<<< Updated upstream
+=======
+    
+>>>>>>> Stashed changes */
 
 .container {
     display: grid;
