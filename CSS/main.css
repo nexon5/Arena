@@ -1,8 +1,13 @@
 * {
     margin: 0;
+    box-sizing: border-box;
+    
 }
-body{
-    background: yellow;
+body {
+    font-family: sans-serif;
+    background: rgb(30, 81, 110);
+    width: 100%;
+    min-height: 100vh;
 }
 
 #head {
@@ -18,9 +23,42 @@ body{
     width: 80%;
     height: 800px;
     margin-left: 10%;
-    background: white;
+    background: rgb(189, 240, 247);
 }
-#main-area {
+
+/* #main-area {
     
+} */
+
+.container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 70% auto;
+    margin: 10px;
+    padding: 20px;
+}
+
+.box-1 {
+    background-color: skyblue;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+
+[class^="input"] {
+    padding: 10px;
+    margin: 20px;
+}
+
+.input-submit {
+    size: 20px;
+    cursor: pointer;
+}
+
+.box-2 {
+    background-color: skyblue;
+    display: grid;
+    place-items: center stretch;;
+    padding: 20px;
 }
 
