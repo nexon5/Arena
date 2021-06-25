@@ -1,7 +1,5 @@
 * {
     margin: 0;
-    box-sizing: border-box;
-    
 }
 body {
     font-family: sans-serif;
@@ -15,7 +13,6 @@ body {
     background: black;
     text-align: center;
     font-size: 10em;
-
 }
 
 #main {
@@ -32,7 +29,7 @@ body {
 
 .container {
     display: grid;
-    gap: 20px;
+    gap: 10px;
     grid-template-columns: 75% auto;
     margin: 10px;
     padding: 20px;
@@ -45,9 +42,22 @@ body {
     padding: 20px;
 }
 
+.text {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+}
+
 [class^="input"] {
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
+}
+
+[class^="input-text"] {
+    padding: 10px;
+    margin: 10px;
+    width: 85;
 }
 
 .input-submit {
