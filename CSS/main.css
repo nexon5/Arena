@@ -58,6 +58,9 @@ body {
     width: 100%;
     
 }
+.fire > img{
+    display: block;     
+}
 #pole {
    width: 80%;
 }
@@ -78,6 +81,10 @@ body {
 }
 .btn-3 > input{
     width: 200px;
+}
+
+.colona > img{
+    display: block; 
 }
 
 
