@@ -6,46 +6,51 @@
     <link rel="stylesheet" href="../CSS/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    
     <title>R-P-G</title>
 </head>
+<body >
     <header>
         <div id="head"><p id="blink">_THE ARENA_</p></div>
     </header>
-<body >
-    <div id="main">
-        <div id="form">
-            <form action="">
-                <div class="container">
-                    <div class="box-1"> 
-                        <div class="text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Praesent commodo odio quis nunc gravida sollicitudin. 
-                        Nunc imperdiet, felis et convallis accumsan, elit neque mollis quam, et gravida libero nulla eu orci. 
-                        Donec vitae auctor turpis. Nunc eget efficitur ligula. 
-                        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-                        Vivamus consequat tincidunt massa eu sodales. Sed nec est in enim pellentesque congue. 
-                        Donec fringilla, odio vel finibus ullamcorper, orci ligula tristique odio, ac venenatis ipsum est consectetur purus. 
-                        Cras pellentesque ipsum vel libero ultricies tempor. Nulla mollis est ac est venenatis, in condimentum libero feugiat.
-                        </div>
-                        <div>
-                            <input class = "input-text" type="text" size="85">
-                            <input class = "input-submit" type= "submit" value="Enter">
-                        </div>
-                        <div class="btn-group">
-                            <input class = "input-submit" type= "submit" value="Атаковать">
-                            <input class = "input-submit" type= "submit" value="Блокировать">
-                            <input class = "input-submit" type= "submit" value="Сбежать">
-                        </div>
-                    </div>
-                    <div class="box-2">
-                            <p><img src="../img/backpack.png" align="middle">Инвентарь</p>
-                            <p><img src="../img/bookmarklet.png" align="middle">Журнал заданий</p>
-                            <p><img src="../img/treasure-map.png" align="middle">Карта</p>
-                    </div>
-                </div>
-            </form>
+
+    <div class="container">
+        <div class="column-1">
+            <div class="fire"><img src="../img/fire.gif" alt=""></div>
+            <div class="colona"><img src="../img/kolona1.png" alt=""></div>
         </div>
+        <div id="main">
+            <div class="mainArea">
+                <div id="form">
+                    <form action="">
+                        <textarea name="" id="main-area" cols="80" rows="25"></textarea>
+                        <div class="inp">
+                            <input id="pole" type="text"></form>
+                            <input type="submit"></input> 
+                        </div>
+                        <div class="btns-main">
+                            <div class="btn-1"><input type="submit" value="Атаковать"></input></div>
+                             
+                            <div class="btn-2"><input type="submit" value="Отступить"></input> </div>
+                            
+                            <div class="btn-3"><input type="submit" value="Покинуть"></input> </div>
+                            
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="menu">
+                
+                <div class="backpack"><img src="../img/backpack.png" height="100" width="100" alt=""></div>
+                <div class="inventory"><img src="../img/bookmarklet.png" height="100" width="100" alt=""></div>
+                <div class="map"><img src="../img/treasure-map.png" height="100" width="100" alt=""></div>
+                
+            </div>
+        </div>
+        <div class="column-2">
+            <div class="fire"><img src="../img/fire.gif" alt=""></div>
+            <div class="colona"><img src="../img/kolona1.png" alt=""></div>
+        </div>
+
     </div>
     <script src="../JS/main.js"></script>
 </body>
