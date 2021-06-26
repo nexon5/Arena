@@ -10,9 +10,9 @@ body {
 
 #head {
     color: red;
-    background: black;
+    background-image: url(../img/sky.jpg);
     text-align: center;
-    font-size: 10em;
+    font-size: 9em;
 }
 
 #main {
@@ -85,6 +85,10 @@ body {
 
 .colona > img{
     display: block; 
+}
+
+.btns-main > input{
+
 }
 
 
