@@ -27,22 +27,25 @@ body {
     background:red;
     height: 600px;
     width: 100%;
-/* =======
-    padding-left: 20px;
-    width: 80%;
-    height: 800px;
-    margin-left: 10%;
-    background: rgb(189, 240, 247); */
+
 }
 
 
 
 #menu{
-    background: green;
+    border: 2px dotted white;
+    background: rgb(30, 81, 110);
+
+    height: 400px;
+    width: 300px;
+    padding-top: 10%;
+    padding-left: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr ;
    
 }
 .mainArea {
-    background: yellow;
+    background: rgb(30, 81, 110);
     padding-left: 30px;
     padding-top: 30px;
 }
@@ -79,10 +82,7 @@ body {
 
 
 #menu{
-    padding-top: 10%;
-    padding-left: 20px;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr ;
+    
 
 }
 
