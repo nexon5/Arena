@@ -21,18 +21,13 @@ body{
 .container {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
-    background:yellow;
-    height: 800px;
+    background:red;
+    height: 636px;
     width: 100%;
 }
-.container > div.column-1 {
-    background-image: url(../img/kirpich.jpg);
-    background-size: cover;
 
-}
-.container > div.column-2 {
-    background: green;
-
+.column-1 > div {
+    margin: 0;
 }
 .colona > img{
     width: 100%;
