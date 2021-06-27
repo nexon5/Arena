@@ -9,9 +9,10 @@ body {
 }
 
 #head {
+    font-style: bold;
     font-family: 'Shadows Into Light', cursive;
     color: red;
-    background-image: url(../img/sky.jpg);
+    background-image: url(../img/kirpich.jpg);
     text-align: center;
     font-size: 8em;
     letter-spacing: 40px;
@@ -22,7 +23,7 @@ body {
 
     display: grid;
     grid-template-columns: 5fr 1fr;
-   /* background: rgb(12, 85, 114);*/
+   /*background: black;*/
 }
 .container {
     display: grid;
@@ -47,8 +48,9 @@ body {
     grid-template-rows: 1fr 1fr 1fr ;
    
 }
+
 .mainArea {
-   /* background: rgb(30, 81, 110);*/
+    
     padding: 30px;
 }
 .colona > img{
@@ -70,6 +72,7 @@ body {
    box-shadow:0 0 15px 4px rgba(255, 0, 0, 0.5);
    font-size: 15px;
    margin-right: 8px;
+   
 }
 .inp{
     display: flex;
@@ -82,7 +85,7 @@ body {
     padding-bottom: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
+    column-gap: 20px;
 }
 
 .colona > img{
