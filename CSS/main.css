@@ -2,24 +2,27 @@
     margin: 0;
 }
 body {
-    font-family: sans-serif;
-    background: rgb(30, 81, 110);
+    
+    
     width: 100%;
     min-height: 100vh;
 }
 
 #head {
+    font-family: 'Shadows Into Light', cursive;
     color: red;
     background-image: url(../img/sky.jpg);
     text-align: center;
-    font-size: 9em;
+    font-size: 8em;
+    letter-spacing: 40px;
 }
 
 #main {
+    background: url(../img/kirpich.jpg);
 
     display: grid;
     grid-template-columns: 5fr 1fr;
-    background: rgb(12, 85, 114);
+   /* background: rgb(12, 85, 114);*/
 }
 .container {
     display: grid;
@@ -45,9 +48,8 @@ body {
    
 }
 .mainArea {
-    background: rgb(30, 81, 110);
-    padding-left: 30px;
-    padding-top: 30px;
+   /* background: rgb(30, 81, 110);*/
+    padding: 30px;
 }
 .colona > img{
     width: 100%;
@@ -63,33 +65,53 @@ body {
 }
 #pole {
    width: 80%;
+   border: 2px solid #0f8ace ;
+   padding:    5px;
+   box-shadow:0 0 15px 4px rgba(255, 0, 0, 0.5);
+   font-size: 15px;
+   margin-right: 8px;
 }
 .inp{
     display: flex;
+    
 }
 .btns-main{
+    background: url(../img/111.jpg);
+    background-size: contain;
     padding-top: 30px;
+    padding-bottom: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-}
-
-.btn-1 > input{
-    width: 200px;
-}
-.btn-2 > input{
-    width: 200px;
-}
-.btn-3 > input{
-    width: 200px;
+    column-gap: 30px;
 }
 
 .colona > img{
     display: block; 
 }
-
-.btns-main > input{
-
+div[class^="btn-"]>button{
+   margin-left: 10px;
+   width: 190px;
+   color: white;
+   background-color: black;
+   border-radius: 10%;
+   border: 1px solid red;
+   transition-duration: 0.5s; 
+   cursor: pointer;
+   font-size: 20px;
+   box-shadow: 0px 0px 5px 3px rgba(255, 0, 0, 1);
 }
+
+div[class^="btn-"]>button:hover{
+    
+    background-color: rgb(117, 25, 25);
+    transform: scale(1.2);
+    box-shadow: 0px 0px 25px 10px rgba(255, 0, 0, 1);
+}
+
+.inp {
+    margin-bottom: 10px;
+}
+
 
 
 
