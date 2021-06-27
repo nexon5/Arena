@@ -64,6 +64,10 @@ body {
 }
 #pole {
    width: 80%;
+   border: 2px solid #0f8ace ;
+   padding:    5px;
+   box-shadow:0 0 15px 4px rgba(15,138,206,0.5);
+   font-size: 15px;
 }
 .inp{
     display: flex;
@@ -74,23 +78,21 @@ body {
     grid-template-columns: repeat(3, 1fr);
 }
 
-.btn-1 > input{
-    width: 200px;
+ div[class^="btn-"]{
+   width: 200px;
+  /*  height: 400px;
+   background: white; */
+   
 }
-.btn-2 > input{
-    width: 200px;
-}
-.btn-3 > input{
-    width: 200px;
-}
-
 .colona > img{
     display: block; 
 }
-
-.btns-main > input{
-
+div[class^="btn-"]>button{
+   color: white;
+   background-color: black;
+   border-radius: 10%;
 }
+
 
 
 
