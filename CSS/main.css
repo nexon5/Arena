@@ -72,21 +72,27 @@ body {
 .fire > img{
     display: block;     
 }
+#main-area{
+    background: url(../img/pergam.png);
+    outline: none;
+}
+
 #pole {
    width: 80%;
-   border: 2px solid #0f8ace ;
+  
    padding:    5px;
-   box-shadow:0 0 15px 4px rgba(255, 0, 0, 0.5);
+   
    font-size: 15px;
    margin-right: 8px;
-   
+   outline: none;
+   background: url(../img/pergam.png);
 }
 .inp{
     display: flex;
     
 }
 .btns-main{
-    background: url(../img/111.jpg);
+    
     background-size: contain;
     padding-top: 30px;
     padding-bottom: 30px;
