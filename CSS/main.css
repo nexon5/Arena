@@ -27,7 +27,7 @@ body {
 
 .main {
     background: url(../img/kirpich.jpg);
-    grid-area: art;
+    
     display: grid;
     grid-template-columns: 5fr 1fr;
    
@@ -85,7 +85,8 @@ body {
 #main-area{
     background: url(../img/pergam.png);
     outline: none;
-   width: 36vw;
+   width: 42vw;
+   height: 36vh;
 }
 
 #pole {
@@ -142,11 +143,6 @@ div[class^="btn-"]>button:hover{
     min-width: 100px;
     max-width: 205px;
 }
-.column-1{
-    grid-area: col1;
-}
-.column-2{
-    grid-area: col2;
-}
+
 
 

@@ -1,0 +1,66 @@
+@media screen and (max-width: 900px ) {
+    body{
+        background: url(../img/kirpich.jpg)
+    }
+    .column-1, .column-2{
+        display: none;
+    }
+
+    .container > .main {
+        display: grid;
+        justify-items: center;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .main > .menu {
+        grid-row-start: 2;
+        grid-column: 1;
+        grid-row-end: 3;
+        grid-column: 1;
+    }
+    #main-area{
+        width: 330px;
+        height: 300px;
+        resize: both;
+    }
+    .btns-main{
+       display: grid;
+      
+       justify-items: center;
+       grid-template-rows: repeat(3, 50px); 
+       grid-template-columns: unset;
+       grid-gap: 50px;
+    }
+
+    div[class^="btn"] > button{
+        width: 250px;
+    }
+
+    .menu{
+        
+        height: 400px;
+        width: 300px;
+       
+       
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
